@@ -5,7 +5,7 @@ ans =len(nums)
 while i<=j:
     mid = (i+j)//2
     if nums[mid] >=x:
-        ans = mid
+        ans = nums[i]
         j = mid-1
     else:
         i = mid+1
